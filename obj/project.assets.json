@@ -8792,14 +8792,13 @@
       "outputPath": "/Users/amberli/Projects/MVcMovie/MVcMovie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/amberli/.config/NuGet/NuGet.Config"
+        "/Users/amberli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/GBDigital/_packaging/SERVICE-LIB/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

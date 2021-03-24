@@ -28,6 +28,7 @@ namespace MVcMovie
         {
             services.AddControllersWithViews();
 
+            //使用SQLite
             services.AddDbContext<MvcMovieContext>(options =>
             options.UseSqlite(Configuration.GetConnectionString("MvcMovieContext")));
         }
@@ -55,6 +56,7 @@ namespace MVcMovie
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                    // localhost:5001/HelloWorld/Welcome/3?name=Rick id? 表示id参数可选
 
 
             });
